@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="329023" started-at="2018-06-21T10:33:47Z" finished-at="2018-06-21T10:39:16Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Averroes.e2etests.RunnerGenererPDF@1ed4004b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="329023" started-at="2018-06-21T10:33:47Z" finished-at="2018-06-21T10:39:16Z">
+      <class name="com.Averroes.e2etests.RunnerGenererPDF">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Averroes.e2etests.RunnerGenererPDF@1ed4004b]" name="setUpClass" is-config="true" duration-ms="1216" started-at="2018-06-21T11:33:47Z" finished-at="2018-06-21T11:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Averroes.e2etests.RunnerGenererPDF@1ed4004b]" name="feature" duration-ms="324981" started-at="2018-06-21T11:33:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-06-21T11:39:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Génération d'un PDF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.Averroes.e2etests.RunnerGenererPDF@1ed4004b]" name="writeExtentReport" is-config="true" duration-ms="97" started-at="2018-06-21T11:39:14Z" finished-at="2018-06-21T11:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Averroes.e2etests.RunnerGenererPDF@1ed4004b]" name="tearDownClass" is-config="true" duration-ms="2447" started-at="2018-06-21T11:39:14Z" finished-at="2018-06-21T11:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Averroes.e2etests.RunnerGenererPDF -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

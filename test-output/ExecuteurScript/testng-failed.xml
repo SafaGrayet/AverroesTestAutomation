@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ExecuteurScript]">
+  <test name="Test Executeur(failed)">
+    <classes>
+      <class name="com.Averroes.e2etests.ExecuteurRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="writeExtentReport"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.Averroes.e2etests.ExecuteurRunner -->
+    </classes>
+  </test> <!-- Test Executeur(failed) -->
+</suite> <!-- Failed suite [ExecuteurScript] -->

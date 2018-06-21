@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="323.73592">
+<testcase classname="Génération d'un PDF" name="Génération d'un PDF dynamique avec emplacement dynamique" time="323.73592">
+<system-out><![CDATA[Given je connecte à Averroès en tant que admin..............................passed
+Then je vois le dashboard d'admin...........................................passed
+And je clique sur le lien du dashlet administration processus...............passed
+Given je créé un nouveau processus "Génération d'un PDF dynamique dans un emplacement dynamique".passed
+And je créé la varible de processus nom de type texte.......................passed
+And je créé la variable de processus prenom de type texte...................passed
+And je créé la varible de processus "fichier" de type Contenu GED contenu...passed
+And je créé la varible de processus "dossier" de type Contenu GED...........passed
+Then je réalise le workflow de génération PDF dynamique dans un emplacement dynamique.passed
+And je créé le formulaire contenat les champs nom, prénom, fichier,dossier dans le noeud de début.passed
+And je configure la tache système génération PDF dynamique avec emplacement dynamique.passed
+And je clique sur l'icone générer...........................................passed
+And je clique sur l'icone activer...........................................passed
+And je consule la dashlet processus.........................................passed
+When je lance le processus Génération d'un PDF dynamique dans un emplacement dynamique.passed
+Then je consule la dashlet bibliothéque.....................................passed
+And je trouve le fichier généré dynamiqument dans l'emplacement dynamique...passed
+]]></system-out>
+</testcase>
+</testsuite>

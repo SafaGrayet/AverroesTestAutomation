@@ -1,0 +1,281 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 698768695,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "je connecte à Averroès en tant que admin",
+            "match": {
+              "location": "FiligranerPDFSteps.jeConnecteAAverroesEnTantQueAdmin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3094803323,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "je vois le dashboard d\u0027admin",
+            "match": {
+              "location": "FiligranerPDFSteps.jeVoisLeDashboardDAdmin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4598281632,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "je clique sur le lien du dashlet administration processus",
+            "match": {
+              "location": "FiligranerPDFSteps.jeCliqueSurLeLienDuDashletAdministrationProcessus()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16207323999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Génération d\u0027un PDF dynamique avec emplacement dynamique",
+        "description": "",
+        "id": "génération-d\u0027un-pdf;génération-d\u0027un-pdf-dynamique-avec-emplacement-dynamique",
+        "after": [
+          {
+            "result": {
+              "duration": 335846,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9282470097,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "je créé un nouveau processus \"Génération d\u0027un PDF dynamique dans un emplacement dynamique\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Génération d\u0027un PDF dynamique dans un emplacement dynamique",
+                  "offset": 30
+                }
+              ],
+              "location": "AlimentationVariableTest.jeCreeUnNouveauProcessus(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13277980619,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "je créé la varible de processus nom de type texte",
+            "match": {
+              "location": "AlimentationVariableTest.jeCreeLaVaribleDeProcessusDeTypeTexte()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8513765612,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "je créé la variable de processus prenom de type texte",
+            "match": {
+              "location": "AlimentationVariableTest.jeCreeLaVariableDeProcessusDeTypeTexte()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9746765563,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "je créé la varible de processus \"fichier\" de type Contenu GED contenu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fichier",
+                  "offset": 33
+                }
+              ],
+              "location": "MetadonneesSteps.jeCreeLaVaribleDeProcessusDeTypeContenuGEDContenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11223531327,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "je créé la varible de processus \"dossier\" de type Contenu GED",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dossier",
+                  "offset": 33
+                }
+              ],
+              "location": "MetadonneesSteps.jeCreeLaVaribleDeProcessusDeTypeContenuGED(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17882594181,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "je réalise le workflow de génération PDF dynamique dans un emplacement dynamique",
+            "match": {
+              "location": "GenerationPDF.jeRealiseLeWorkflowDeGenerationPDFDynamiqueDansUnEmplacementDynamique()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48220114760,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "je créé le formulaire contenat les champs nom, prénom, fichier,dossier dans le noeud de début",
+            "match": {
+              "location": "GenerationPDF.jeCreeLeFormulaireContenatLesChampsNomPrenomFichierDossierDansLeNoeudDeDebut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20881837888,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "je configure la tache système génération PDF dynamique avec emplacement dynamique",
+            "match": {
+              "location": "GenerationPDF.jeConfigureLaTacheSystemeGenerationPDFDynamiqueAvecEmplacementDynamique()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61600249278,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "je clique sur l\u0027icone générer",
+            "match": {
+              "location": "FiligranerPDFSteps.jeCliqueSurLIconeGenerer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7573478195,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "je clique sur l\u0027icone activer",
+            "match": {
+              "location": "FiligranerPDFSteps.jeCliqueSurLIconeActiver()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14361240851,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "je consule la dashlet processus",
+            "match": {
+              "location": "FiligranerPDFSteps.jeConsuleLaDashletProcessus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21138198765,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "je lance le processus Génération d\u0027un PDF dynamique dans un emplacement dynamique",
+            "match": {
+              "location": "GenerationPDF.jeLanceLeProcessusGenrationDUnPDFDynamiqueDansUnEmplacementDynamique()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20587001321,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "je consule la dashlet bibliothéque",
+            "match": {
+              "location": "GenerationPDF.jeConsuleLaDashletBibliotheque()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34847177850,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "je trouve le fichier généré dynamiqument dans l\u0027emplacement dynamique",
+            "match": {
+              "location": "GenerationPDF.jeTrouveLeFichierGenereDynamiqumentDansLEmplacementDynamique()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@GenererPDFdynamique"
+          }
+        ]
+      }
+    ],
+    "name": "Génération d\u0027un PDF",
+    "description": "\r\nEn tant que administrateur \r\n\t Je souhaite verifer la génération d\u0027un PDF bien déterminer avec les données saisis",
+    "id": "génération-d\u0027un-pdf",
+    "keyword": "Feature",
+    "uri": "src/specs/features/générerPDFdynamique/GénérerPDFdynamique.feature"
+  }
+]
